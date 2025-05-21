@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gov_carousels",
+  "info": {
+    "singularName": "gov-carousel",
+    "pluralName": "gov-carousels",
+    "displayName": "gov_carousel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gov_noticias",
+  "info": {
+    "singularName": "gov-noticia",
+    "pluralName": "gov-noticias",
+    "displayName": "gov_noticia",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "subtitulo": {
+      "type": "string"
+    },
+    "conteudo": {
+      "type": "richtext"
+    }
+  }
+}

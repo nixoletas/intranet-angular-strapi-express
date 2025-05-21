@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "gov_headers",
+  "info": {
+    "singularName": "gov-header",
+    "pluralName": "gov-headers",
+    "displayName": "gov_header",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "subtitulo": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "assinatura": {
+      "type": "string"
+    }
+  }
+}

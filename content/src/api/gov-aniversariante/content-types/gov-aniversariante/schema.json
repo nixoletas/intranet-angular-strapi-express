@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gov_aniversariantes",
+  "info": {
+    "singularName": "gov-aniversariante",
+    "pluralName": "gov-aniversariantes",
+    "displayName": "gov_aniversariante",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "data": {
+      "type": "date"
+    }
+  }
+}

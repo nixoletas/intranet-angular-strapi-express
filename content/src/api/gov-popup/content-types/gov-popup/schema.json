@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "gov_popups",
+  "info": {
+    "singularName": "gov-popup",
+    "pluralName": "gov-popups",
+    "displayName": "gov_popup",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "popup_imagem": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "popup_link": {
+      "type": "string"
+    }
+  }
+}

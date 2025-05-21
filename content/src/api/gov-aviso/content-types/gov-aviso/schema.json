@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gov_avisos",
+  "info": {
+    "singularName": "gov-aviso",
+    "pluralName": "gov-avisos",
+    "displayName": "gov_aviso"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "mensagem": {
+      "type": "text"
+    }
+  }
+}
